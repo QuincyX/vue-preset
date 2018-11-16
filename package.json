@@ -1,0 +1,16 @@
+{
+  "name": "vue-preset",
+  "version": "0.1.0",
+  "description": "Quincy's vue-cli preset",
+  "main": "prompts.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quincyx/vue-preset.git"
+  },
+  "author": "Quincyx (likequincy@outlook.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quincyx/vue-preset/issues"
+  },
+  "homepage": "https://github.com/Quincyx/vue-preset#readme"
+}

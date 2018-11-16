@@ -1,0 +1,69 @@
+.inline {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.wrap(){
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.rounded(@size:60px){
+  width:@size;
+  height:@size;
+  border-radius: 50%;
+}
+.center {
+  text-align: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.trans {
+  transition: all 0.15s ease;
+}
+.lh(@height:1.75em) {
+  line-height: @height;
+}
+.hh(@height:1.75em) {
+  line-height: @height;
+  height: @height;
+}
+.pd(@size:1em) {
+  padding: @size;
+}
+.size(@size:14px) {
+  font-size: @size;
+}
+
+.color(@color:@primary) {
+  color: @color;
+}
+.color-bg(@color:@primary) {
+  background-color: @color;
+}
+
+.border-right(@color:@border) {
+  border-right: 1px solid @color;
+}
+.border-left(@color:@border) {
+  border-left: 1px solid @color;
+}
+.border-top(@color:@border) {
+  border-top: 1px solid @color;
+}
+.border-bottom(@color:@border) {
+  border-bottom: 1px solid @color;
+}
+.border(@color:@border) {
+  border: 1px solid @color;
+}
+.radius(@size:5px) {
+  border-radius: @size;
+}

@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, PingFang SC, Arial, 'Hiragino Sans GB',
+    'Microsoft Yahei', '微软雅黑', STHeiti, '华文细黑', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.15;
+  background: @bg;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: @wid;
+  margin:0 auto;
+}
+.section {
+  position: relative;
+  border-bottom: 1px solid #e1e1e1;
+  background: @white;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+}
+.card {
+  margin-top: 25px;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  background: @white;
+  box-shadow: 0 3px 8px -6px rgba(0, 0, 0, 0.1);
+}

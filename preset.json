@@ -1,0 +1,32 @@
+{
+  "useConfigFiles": true,
+  "useTaobaoRegistry": true,
+  "packageManager": "npm",
+  "router": true,
+  "routerHistoryMode": false,
+  "vuex": true,
+  "cssPreprocessor": "less",
+  "css": {
+    "sourceMap": true
+  },
+  "configs": {
+    "vue": {
+      "baseUrl": "/",
+      "outputDir": "dist",
+      "filenameHashing": true,
+      "productionSourceMap": false,
+      "devServer": {
+        "host": "0.0.0.0",
+        "open": true
+      },
+      "pluginOptions": {}
+    }
+  },
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "vue-cli-plugin-pug": {},
+    "vue-cli-plugin-style-resources-loader": {
+      "preProcessor": "less"
+    }
+  }
+}
