@@ -5,11 +5,7 @@ module.exports = (api, options, rootOptions) => {
     dependencies: {
       axios: '^0.18.0',
       nprogress: '^0.2.0',
-      'normalize.css': '^8.0.1',
-      'vue-router-layout': '^0.1.2'
-    },
-    devDependencies: {
-      'vue-auto-routing': '^0.3.0'
+      'normalize.css': '^8.0.1'
     },
     vue: {
       css: {

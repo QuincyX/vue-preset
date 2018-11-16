@@ -25,6 +25,7 @@
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "vue-cli-plugin-pug": {},
+    "vue-cli-plugin-auto-routing": {},
     "vue-cli-plugin-style-resources-loader": {
       "preProcessor": "less"
     }

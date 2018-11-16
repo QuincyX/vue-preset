@@ -1,4 +1,4 @@
-module.exports = (api, opts, rootOptions) => {
+module.exports = (api, options, rootOptions) => {
   api.extendPackage({
     dependencies: {
       'element-ui': '^2.4.5'

@@ -5,12 +5,12 @@
   "main": "prompts.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Quincyx/vue-preset.git"
+    "url": "https://github.com/QuincyX/vue-preset.git"
   },
-  "author": "Quincyx (likequincy@outlook.com)",
+  "author": "QuincyX (likequincy@outlook.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Quincyx/vue-preset/issues"
+    "url": "https://github.com/QuincyX/vue-preset/issues"
   },
-  "homepage": "https://github.com/Quincyx/vue-preset#readme"
+  "homepage": "https://github.com/QuincyX/vue-preset#readme"
 }
