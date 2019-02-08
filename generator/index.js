@@ -14,7 +14,7 @@ module.exports = (api, options, rootOptions) => {
       pluginOptions: {
         'style-resources-loader': {
           preProcessor: 'less',
-          patterns: []
+          patterns: ['./src/style/mixin.less', './src/style/theme.less']
         }
       }
     }
@@ -25,7 +25,6 @@ module.exports = (api, options, rootOptions) => {
     require('./iview.js')(api, options)
   }
   api.onCreateComplete(() => {
-    utils.updatePattern()
     utils.deleteFile('./src/store.js')
     utils.deleteDir('./src/views')
   })

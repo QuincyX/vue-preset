@@ -9,6 +9,6 @@ module.exports = (api, options, rootOptions) => {
     }
   })
   api.render('../ui/element')
-  api.injectImports('src/main.js', `import './plugins/element.js'`)
+  api.injectImports('src/plugins/index.js', `import './element.js'`)
   api.onCreateComplete(() => {})
 }

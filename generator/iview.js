@@ -5,6 +5,6 @@ module.exports = (api, options, rootOptions) => {
     }
   })
   api.render('../ui/iview')
-  api.injectImports('src/main.js', `import './plugins/iview.js'`)
+  api.injectImports('src/plugins/index.js', `import './iview.js'`)
   api.onCreateComplete(() => {})
 }
